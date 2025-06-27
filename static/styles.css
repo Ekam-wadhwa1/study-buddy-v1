@@ -1,0 +1,64 @@
+body {
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+#chat-box {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#user-input {
+  width: 80%;
+  padding: 10px;
+}
+
+button {
+  width: 15%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Loader animation */
+.loader {
+  width: 60px;
+  aspect-ratio: 4;
+  --c:#000 90%,#0000;
+  background: 
+    radial-gradient(circle closest-side at left  6px top 50%,var(--c)),
+    radial-gradient(circle closest-side                     ,var(--c)),
+    radial-gradient(circle closest-side at right 6px top 50%,var(--c));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  animation: l4 1s infinite alternate;
+  margin: 10px auto;
+  display: none; /* hidden by default */
+}
+
+@keyframes l4 {
+    to { width:25px; aspect-ratio: 1; }
+}

@@ -1,0 +1,51 @@
+reflection::Reflection is the bouncing back of light rays from a surface. Types: Regular reflection (smooth surfaces, clear images) and Diffuse reflection (rough surfaces, no clear image). Laws: Angle of incidence = Angle of reflection; Incident ray, reflected ray, and normal lie in the same plane.
+concave mirror::Concave mirror is a spherical mirror that converges light rays. Uses: torches, shaving mirrors, dentist mirrors. Mirror formula: 1/f = 1/v + 1/u; Magnification m = -v/u.
+convex mirror::Convex mirror is a spherical mirror that diverges light rays. Uses: rear view mirrors in vehicles. Mirror formula: 1/f = 1/v + 1/u; Magnification m = -v/u.
+mirror formula::1/f = 1/v + 1/u where f = focal length, v = image distance, u = object distance.
+magnification mirror::m = height of image / height of object = -v/u.
+refraction::Refraction is the bending of light when it enters a different medium due to change in speed. Formula: Snell’s Law n1*sin i = n2*sin r. Refractive index n = c/v.
+refractive index::Ratio of speed of light in vacuum to speed in medium. n = c/v.
+snell's law::n1*sin i = n2*sin r. Explains relation between angle of incidence and angle of refraction.
+critical angle::Angle of incidence in denser medium for which angle of refraction is 90° in rarer medium.
+total internal reflection::When light travels from denser to rarer medium at angle greater than critical angle, it reflects entirely within the denser medium. Uses: optical fibres, diamond shine.
+lens::A transparent material bounded by two surfaces, at least one curved, which refracts light rays.
+convex lens::Convex lens is a converging lens. Uses: magnifying glasses, cameras, spectacles for hypermetropia. Lens formula: 1/f = 1/v - 1/u; Magnification m = v/u; Power P = 1/f (in meters), unit dioptre (D).
+concave lens::Concave lens is a diverging lens. Uses: spectacles for myopia. Lens formula: 1/f = 1/v - 1/u; Magnification m = v/u; Power P = 1/f (in meters), unit dioptre (D).
+lens formula::1/f = 1/v - 1/u where f = focal length, v = image distance, u = object distance.
+magnification lens::m = height of image / height of object = v/u.
+power of lens::P = 1/f (in meters). Unit is dioptre (D). Positive for convex, negative for concave.
+human eye::Human eye forms images on retina using convex lens. Parts: Cornea (refraction), Iris (controls pupil), Lens (focus), Retina (image formation), Optic nerve (transmits to brain). Near point: 25cm; Far point: infinity.
+accommodation::Ability of eye lens to adjust its focal length to focus near and far objects by changing curvature.
+myopia::Short-sightedness. Cannot see distant objects clearly. Image forms before retina. Corrected using concave lens.
+hypermetropia::Long-sightedness. Cannot see nearby objects clearly. Image forms behind retina. Corrected using convex lens.
+presbyopia::Age-related defect where accommodation power reduces. Corrected using bifocal lenses.
+astigmatism::Defect due to uneven curvature of cornea or lens causing blurred vision in part of field. Corrected using cylindrical lenses.
+dispersion::Splitting of white light into seven component colours by a prism.
+rainbow formation::Rainbow forms due to dispersion, total internal reflection, and refraction of sunlight in water droplets.
+scattering::Scattering is deviation of light by particles. Sky appears blue due to scattering of shorter wavelengths. Sunrise and sunset appear red as longer wavelengths scatter less.
+electric current::Flow of electric charge. Formula: I = Q/t. Unit: Ampere (A).
+potential difference::Work done to move unit charge between two points. Formula: V = W/Q. Unit: Volt (V).
+ohm's law::At constant temperature, current through conductor is directly proportional to potential difference. V = I*R.
+resistance::Opposition to flow of current. Formula: R = V/I. Unit: ohm (Ω). Factors: length (direct), area (inverse), material (resistivity ρ), temperature.
+resistivity::Resistivity ρ = R*A/l. Unit: Ωm. Depends only on material.
+series combination::Resistors in series: Rs = R1 + R2 + R3 + ...
+parallel combination::Resistors in parallel: 1/Rp = 1/R1 + 1/R2 + 1/R3 + ...
+electric power::Rate of doing electrical work. Formulas: P = VI = I²R = V²/R. Unit: watt (W).
+electric energy::Energy consumed = Power x Time. Unit: joule (J) or kilowatt-hour (kWh). 1 kWh = 3.6 x 10^6 J.
+fuse::Safety device which melts and breaks circuit if current exceeds safe limit. Made of low melting point alloy.
+magnetic field::Region around magnet or current carrying conductor where magnetic force acts. Field lines emerge from north pole and merge at south pole.
+right hand thumb rule::If thumb points in direction of current, curled fingers show direction of magnetic field around conductor.
+fleming's left hand rule::For force on conductor: Thumb=Force, First finger=Field, Second finger=Current.
+fleming's right hand rule::For induced current: Thumb=Motion, First finger=Field, Second finger=Current.
+electromagnet::Temporary magnet formed by passing current through coil wound around soft iron core. Uses: cranes, electric bells, MRI.
+electric motor::Converts electrical energy to mechanical energy. Principle: current carrying conductor in magnetic field experiences force.
+electric generator::Converts mechanical energy to electrical energy. Principle: electromagnetic induction - changing magnetic field induces current.
+electromagnetic induction::Process of generating electric current by changing magnetic field.
+ac generator::Produces alternating current. Coil rotates between magnets cutting magnetic field lines.
+dc generator::Produces direct current using split ring commutator.
+alternating current::Current that changes direction periodically. Used in homes, frequency 50 Hz in India.
+direct current::Current flows in one direction only. Example: batteries.
+domestic wiring::Live wire (red/brown), Neutral wire (black/blue), Earth wire (green/yellow). Fuse connected to live wire.
+earth wire::Protects user from electric shock by providing path for leakage current to flow to ground.
+overloading::When too many appliances draw current, exceeding safe limit causing heating and fuse blows.
+short circuit::When live and neutral wires touch directly, causing excessive current flow, heating, and potential fire hazard.

@@ -1,28 +1,30 @@
 function sendMessage() {
-  const userInput = document.getElementById("user-input").value;
-  if (!userInput) return;
-
-  const chatBox = document.getElementById("chat-box");
+  const messageInput = document.getElementById("message");
+  const chatbox = document.getElementById("chatbox");
   const loader = document.getElementById("loader");
+  const subject = document.getElementById("subject").value;
 
-  chatBox.innerHTML += `<div><b>You:</b> ${userInput}</div>`;
-  loader.style.display = "block"; // Show loader
+  const message = messageInput.value.trim();
+  if (!message) return;
+
+  chatbox.innerHTML += `<div class="user"><strong>You:</strong> ${message}</div>`;
+  messageInput.value = "";
+
+  loader.style.display = "block";
 
   fetch("/ask", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ message: userInput })
+    body: JSON.stringify({ subject: subject, message: message })
   })
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
-    loader.style.display = "none"; // Hide loader
-    chatBox.innerHTML += `<div><b>AI:</b> ${data.reply}</div>`;
-    chatBox.scrollTop = chatBox.scrollHeight;
+    loader.style.display = "none";
+    chatbox.innerHTML += `<div class="bot"><strong>AI:</strong> ${data.reply}</div>`;
+    chatbox.scrollTop = chatbox.scrollHeight;
   })
-  .catch(error => {
-    loader.style.display = "none"; // Hide loader
-    chatBox.innerHTML += `<div><b>Error:</b> ${error}</div>`;
+  .catch(err => {
+    loader.style.display = "none";
+    chatbox.innerHTML += `<div class="bot"><strong>AI:</strong> Error connecting to server.</div>`;
   });
-
-  document.getElementById("user-input").value = "";
 }

@@ -1,0 +1,48 @@
+life processes::Basic functions performed by living organisms to maintain life are called life processes. Includes nutrition, respiration, transportation, and excretion.
+nutrition::Process of obtaining and utilising food for energy, growth, and maintenance. Two types: autotrophic (self-nourishment like plants) and heterotrophic (depend on others like animals).
+autotrophic nutrition::Mode where organisms prepare their own food from simple inorganic substances. Example: Photosynthesis in green plants.
+photosynthesis::Process by which green plants prepare food using sunlight, CO2, and water. Equation: 6CO2 + 6H2O → C6H12O6 + 6O2. Occurs in chloroplasts containing chlorophyll.
+heterotrophic nutrition::Mode where organisms depend on other organisms for food. Types: saprophytic (fungi), parasitic (lice), holozoic (humans).
+holozoic nutrition::Involves ingestion, digestion, absorption, assimilation, and egestion. Example: humans.
+human digestive system::Mouth (teeth chew, saliva moistens), Oesophagus (swallowing), Stomach (HCl kills bacteria, pepsin digests proteins), Small intestine (bile emulsifies fats, pancreatic enzymes digest all food groups, villi absorb nutrients), Large intestine (absorbs water), Anus (egestion).
+respiration::Breaking down glucose to release energy. Types: aerobic (with oxygen, produces CO2 + H2O + energy) and anaerobic (without oxygen, produces ethanol or lactic acid + energy). Equation: C6H12O6 + O2 → CO2 + H2O + energy.
+human respiratory system::Nostrils → nasal cavity (filters air) → pharynx → larynx → trachea → bronchi → bronchioles → alveoli (site of gaseous exchange). Diaphragm aids breathing.
+transportation in human beings::Circulatory system transports nutrients, gases, and wastes. Heart pumps blood (double circulation). Blood vessels: arteries, veins, capillaries.
+blood::Connective tissue with plasma (liquid), RBCs (carry oxygen via haemoglobin), WBCs (fight infections), platelets (clotting).
+heart::Muscular organ with 4 chambers: right atrium, right ventricle, left atrium, left ventricle. Circulates blood to lungs (pulmonary circulation) and body (systemic circulation).
+excretion::Removal of metabolic wastes. Human excretory system: kidneys (filter urea and excess water), ureters, urinary bladder, urethra. Functional unit: nephron.
+control and coordination::Process by which organisms respond to stimuli. Involves nervous system and endocrine system (hormones).
+nervous system::Consists of brain, spinal cord, nerves. Functional unit: neuron. Controls voluntary actions and reflexes via electrical impulses.
+reflex action::Automatic quick response to stimuli without conscious thought. Example: withdrawal of hand from hot object. Pathway: reflex arc (receptor → sensory neuron → spinal cord → motor neuron → effector).
+human brain::Forebrain (thinking, memory, voluntary actions), Midbrain (reflexes of eyes and ears), Hindbrain (cerebellum for balance, medulla for involuntary actions like heartbeat, breathing).
+endocrine system::System of glands secreting hormones for chemical coordination. Example: pancreas secretes insulin to control blood sugar.
+plant hormones::Auxins (growth towards light), Gibberellins (stem elongation), Cytokinins (cell division), Abscisic acid (inhibits growth, causes wilting).
+tropism::Directional growth movement in response to stimulus. Phototropism (light), Geotropism (gravity), Hydrotropism (water), Chemotropism (chemicals).
+reproduction::Biological process to produce new individuals. Two types: asexual (single parent, identical offspring) and sexual (two parents, variation in offspring).
+asexual reproduction::Includes fission (binary in bacteria, multiple in Plasmodium), budding (yeast, hydra), fragmentation (Spirogyra), regeneration (Planaria), spore formation (Rhizopus).
+sexual reproduction::Involves fusion of male and female gametes producing variation. Meiosis produces gametes with half chromosomes.
+human male reproductive system::Testes (produce sperm + testosterone), vas deferens (carries sperm), seminal vesicle (nourishes sperm), prostate gland, penis.
+human female reproductive system::Ovaries (produce eggs + estrogen), fallopian tubes (fertilisation site), uterus (implantation and foetus development), vagina (birth canal).
+fertilisation::Fusion of male and female gametes to form zygote. Internal fertilisation in humans.
+menstrual cycle::Monthly cycle preparing uterus for pregnancy. Average 28 days. Includes menstruation, ovulation, preparation for implantation.
+contraception::Preventing pregnancy. Methods: barrier (condoms), hormonal pills, intrauterine devices (IUDs), surgical methods (vasectomy, tubectomy).
+heredity::Transfer of traits from parents to offspring. Controlled by genes located on chromosomes.
+mendel's experiments::Crossed pea plants. Law of dominance: dominant allele masks recessive. Law of segregation: alleles separate during gamete formation.
+monohybrid cross::Cross involving one trait. Example: Tall (TT) x Dwarf (tt) → All Tall (Tt) in F1; F2 ratio 3 Tall : 1 Dwarf.
+dihybrid cross::Cross involving two traits. Example: RrYy x RrYy → 9:3:3:1 phenotypic ratio. Shows independent assortment.
+evolution::Gradual change in organisms over generations due to natural selection. Proposed by Charles Darwin.
+speciation::Formation of new species due to reproductive isolation and genetic divergence.
+fossils::Remains or imprints of ancient organisms. Provide evidence of evolution and age of rocks.
+homologous organs::Same structure, different function. Example: forelimbs of humans and bats.
+analogous organs::Different structure, same function. Example: wings of birds and insects.
+ecosystem::Interaction between living organisms (biotic) and non-living components (abiotic) in an area.
+food chain::Sequence showing transfer of energy. Example: Grass → Grasshopper → Frog → Snake → Eagle.
+food web::Interconnected food chains in an ecosystem showing multiple pathways.
+trophic levels::Positions in food chain. Producers → Primary consumers → Secondary consumers → Tertiary consumers.
+biodegradable waste::Can be decomposed by microorganisms. Example: vegetable peels, paper.
+non biodegradable waste::Cannot be decomposed easily. Example: plastics, metals.
+ozone layer::Protects Earth from harmful UV rays. Depleted by chlorofluorocarbons (CFCs).
+sustainable management::Using resources without depleting them for future generations. Example: water harvesting, afforestation.
+water harvesting::Collecting and storing rainwater for reuse, recharge of groundwater.
+forests and wildlife::Need conservation for ecological balance, climate regulation, and biodiversity protection.
+reduce reuse recycle::Three Rs to manage natural resources and reduce environmental pollution.

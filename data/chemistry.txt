@@ -1,0 +1,60 @@
+chemical reaction::Process where reactants change into products with new properties. Example: Mg + O2 → 2MgO.
+balanced chemical equation::Equation with equal number of atoms of each element on both sides. Example: 2H2 + O2 → 2H2O.
+combination reaction::Two or more substances combine to form one product. Example: CaO + H2O → Ca(OH)2.
+decomposition reaction::One compound breaks into simpler substances. Example: 2Pb(NO3)2 → 2PbO + 4NO2 + O2.
+thermal decomposition::Decomposition using heat. Example: CaCO3 → CaO + CO2.
+electrolytic decomposition::Decomposition using electricity. Example: 2H2O → 2H2 + O2.
+photolytic decomposition::Decomposition using light. Example: 2AgCl → 2Ag + Cl2 (sunlight).
+displacement reaction::A more reactive element displaces a less reactive one. Example: Zn + CuSO4 → ZnSO4 + Cu.
+double displacement reaction::Exchange of ions between two compounds. Example: Na2SO4 + BaCl2 → BaSO4 + 2NaCl.
+redox reaction::Reaction with simultaneous oxidation and reduction. Example: Zn + CuO → ZnO + Cu.
+oxidation::Gain of oxygen or loss of hydrogen. Example: 2Mg + O2 → 2MgO.
+reduction::Loss of oxygen or gain of hydrogen. Example: CuO + H2 → Cu + H2O.
+corrosion::Gradual destruction of metals due to reaction with environment. Example: Rusting: 4Fe + 3O2 + xH2O → 2Fe2O3.xH2O.
+rancidity::Spoiling of fats and oils due to oxidation. Example: Chips becoming stale.
+acid::Substance that releases H+ ions in water. Example: HCl (Hydrochloric acid), H2SO4 (Sulphuric acid).
+properties of acids::Sour taste, turn blue litmus red, conduct electricity in aqueous solution.
+base::Substance that releases OH- ions in water. Example: NaOH (Sodium hydroxide), KOH (Potassium hydroxide).
+properties of bases::Bitter taste, slippery, turn red litmus blue, conduct electricity in aqueous solution.
+neutralisation::Acid + Base → Salt + Water. Example: HCl + NaOH → NaCl + H2O.
+salt::Formed by neutralisation. Example: NaCl (table salt), CaSO4 (calcium sulphate).
+indicator::Shows colour change in acid or base. Example: Litmus (red in acid, blue in base), Phenolphthalein (colourless in acid, pink in base), Methyl orange (red in acid, yellow in base).
+universal indicator::Shows pH value using colour changes from 1 to 14.
+pH scale::Measures hydrogen ion concentration. Below 7: acidic; 7: neutral; above 7: basic.
+importance of pH::Plants grow best at specific pH; stomach uses HCl for digestion; acid rain (pH < 5.6) damages environment.
+bleaching powder::Ca(OCl)2. Made by Cl2 + Ca(OH)2 → Ca(OCl)2 + H2O. Used for bleaching, disinfecting water.
+baking soda::NaHCO3. Made by NH3 + CO2 + H2O + NaCl → NaHCO3 + NH4Cl. Used in baking (CO2 release), as antacid.
+washing soda::Na2CO3.10H2O. Made by heating baking soda: 2NaHCO3 → Na2CO3 + CO2 + H2O. Used to soften hard water.
+plaster of paris::CaSO4.1/2H2O. Made by heating gypsum: CaSO4.2H2O → CaSO4.1/2H2O + 3/2H2O. Used in casts, plastering walls.
+metal::Elements that are lustrous, malleable, ductile, good conductors, sonorous. Example: Fe, Cu, Al.
+non metal::Elements that are non-lustrous (except iodine), brittle, poor conductors (except graphite). Example: S, P, Cl.
+reaction of metals with oxygen::4Na + O2 → 2Na2O; 2Mg + O2 → 2MgO.
+reaction of metals with water::2Na + 2H2O → 2NaOH + H2↑; Ca + 2H2O → Ca(OH)2 + H2↑.
+reaction of metals with acids::Zn + 2HCl → ZnCl2 + H2↑.
+displacement reaction metals::Fe + CuSO4 → FeSO4 + Cu.
+corrosion formula::4Fe + 3O2 + xH2O → 2Fe2O3.xH2O (rust).
+alloy::Mixture of metals to improve properties. Example: Brass (Cu + Zn), Bronze (Cu + Sn).
+extraction of metals high reactivity::Electrolysis. Example: Na from molten NaCl.
+extraction of metals middle reactivity::Reduction by carbon or CO. Example: ZnO + C → Zn + CO.
+extraction of metals low reactivity::Heating alone. Example: HgS → Hg + S.
+enrichment of ores::Removing impurities from ore before extraction.
+calcination::Heating ore in absence of air to remove volatile impurities.
+roasting::Heating ore in excess air to convert sulphide to oxide.
+electrolysis::Breaking compound using electricity. Example: Electrolysis of NaCl.
+catenation::Carbon’s ability to form long chains by bonding with itself. Example: CH3-CH2-CH2-CH3 (butane).
+tetravalency::Carbon forms four covalent bonds. Example: CH4 (methane).
+hydrocarbon::Compound of carbon and hydrogen. Example: Methane (CH4), Ethene (C2H4).
+saturated hydrocarbon::Single bonds only. Example: Ethane (C2H6).
+unsaturated hydrocarbon::At least one double or triple bond. Example: Ethene (C2H4), Ethyne (C2H2).
+ethanol::C2H5OH. Alcohol used in drinks, sanitizers, fuel. Reaction with Na: 2C2H5OH + 2Na → 2C2H5ONa + H2↑.
+ethanoic acid::CH3COOH. Weak acid with vinegar smell. Reaction with NaOH: CH3COOH + NaOH → CH3COONa + H2O.
+esterification::Reaction between alcohol and acid to form ester + water. Example: Ethanol + Ethanoic acid → Ester + H2O.
+soap::Sodium or potassium salt of fatty acids. Reaction: Fat + NaOH → Soap + Glycerol.
+micelle::Cluster formed by soap molecules in water trapping dirt and grease.
+detergent::Sodium salts of sulphonic acids. Work in hard water unlike soaps.
+dobereiner's triads::Group of 3 elements with similar properties where middle has atomic mass ~ average of other two. Example: Li, Na, K.
+newlands octaves::Every 8th element has similar properties. Failed after calcium.
+mendeleev table::Based on atomic mass. Left gaps for undiscovered elements (eka-aluminium = gallium).
+modern periodic table::Based on atomic number. Groups (vertical), Periods (horizontal). Trends: atomic size decreases across period, increases down group.
+valency::Combining capacity of atom. Example: Na (1), O (2).
+metalloids::Elements with properties of both metals and non-metals. Example: B, Si, Ge, As, Sb, Te.

@@ -1,53 +1,112 @@
 body {
-  background: #f0f2f5;
-  font-family: Arial, sans-serif;
+  background: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-.chat-container {
-  max-width: 600px;
-  margin: 50px auto;
-  background: #fff;
-  border-radius: 8px;
+.container {
+  background: #1e1e1e;
+  border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 400px;
+  max-height: 80vh;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.8);
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
 
 h1 {
   text-align: center;
-  color: #4CAF50;
+  color: #00c3ff;
 }
 
-#chat-box {
-  height: 300px;
-  overflow-y: scroll;
-  border: 1px solid #ddd;
+.selector {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.selector select {
+  background: #2c2c2c;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.chatbox {
+  border: 1px solid #444;
+  border-radius: 5px;
   padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  background: #2c2c2c;
   margin-bottom: 10px;
 }
 
-#user-input {
-  width: 80%;
+.chatbox .user, .chatbox .bot {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border-radius: 15px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.chatbox .user {
+  background: #00c3ff;
+  color: #000;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.chatbox .bot {
+  background: #444;
+  color: #e0e0e0;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 1;
   padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background: #2c2c2c;
+  color: #e0e0e0;
 }
 
 button {
-  width: 15%;
-  padding: 10px;
-  background: #4CAF50;
-  color: white;
+  background: #00c3ff;
   border: none;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
 button:hover {
-  background: #45a049;
+  background: #009ac1;
 }
 
-/* Loader animation */
 .loader {
   width: 60px;
   aspect-ratio: 4;
-  --c:#000 90%,#0000;
+  --c:#00c3ff 90%,#0000;
   background: 
     radial-gradient(circle closest-side at left  6px top 50%,var(--c)),
     radial-gradient(circle closest-side                     ,var(--c)),
@@ -56,9 +115,8 @@ button:hover {
   background-repeat: no-repeat;
   animation: l4 1s infinite alternate;
   margin: 10px auto;
-  display: none; /* hidden by default */
 }
 
 @keyframes l4 {
-    to { width:25px; aspect-ratio: 1; }
+  to { width:25px; aspect-ratio: 1; }
 }

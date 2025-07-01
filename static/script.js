@@ -7,24 +7,23 @@ function sendMessage() {
   const message = messageInput.value.trim();
   if (!message) return;
 
-  chatbox.innerHTML += `<div class="user"><strong>You:</strong> ${message}</div>`;
+  chatbox.innerHTML += `<div class="message"><strong>You:</strong> ${message}</div>`;
   messageInput.value = "";
-
   loader.style.display = "block";
 
   fetch("/ask", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ subject: subject, message: message })
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({ message: message, subject: subject })
   })
-  .then(res => res.json())
+  .then(response => response.json())
   .then(data => {
     loader.style.display = "none";
-    chatbox.innerHTML += `<div class="bot"><strong>AI:</strong> ${data.reply}</div>`;
+    chatbox.innerHTML += `<div class="message"><strong>AI:</strong> ${data.reply}</div>`;
     chatbox.scrollTop = chatbox.scrollHeight;
   })
-  .catch(err => {
+  .catch(error => {
     loader.style.display = "none";
-    chatbox.innerHTML += `<div class="bot"><strong>AI:</strong> Error connecting to server.</div>`;
+    chatbox.innerHTML += `<div class="message"><strong>AI:</strong> Error connecting to server.</div>`;
   });
 }

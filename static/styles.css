@@ -1,33 +1,26 @@
 body {
-  background: #121212;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #e0e0e0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
 }
 
 .container {
-  background: #1e1e1e;
-  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  background: #fff;
+  color: #333;
   padding: 20px;
-  width: 400px;
-  max-height: 80vh;
-  overflow: hidden;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.8);
-  animation: slideIn 0.5s ease-out;
-}
-
-@keyframes slideIn {
-  from { transform: translateY(-50px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
 h1 {
   text-align: center;
-  color: #00c3ff;
+  color: #764ba2;
 }
 
 .selector {
@@ -36,81 +29,54 @@ h1 {
 }
 
 .selector select {
-  background: #2c2c2c;
-  color: #e0e0e0;
-  border: 1px solid #555;
   padding: 5px;
   border-radius: 5px;
 }
 
 .chatbox {
-  border: 1px solid #444;
-  border-radius: 5px;
+  background: #f0f0f0;
   padding: 10px;
   height: 300px;
   overflow-y: auto;
-  background: #2c2c2c;
+  border-radius: 10px;
   margin-bottom: 10px;
 }
 
-.chatbox .user, .chatbox .bot {
+.message {
   margin: 5px 0;
-  padding: 8px 12px;
-  border-radius: 15px;
-  max-width: 80%;
-  word-wrap: break-word;
-}
-
-.chatbox .user {
-  background: #00c3ff;
-  color: #000;
-  align-self: flex-end;
-  margin-left: auto;
-}
-
-.chatbox .bot {
-  background: #444;
-  color: #e0e0e0;
-  align-self: flex-start;
-  margin-right: auto;
 }
 
 .input-area {
   display: flex;
-  gap: 10px;
 }
 
-input[type="text"] {
+.input-area input {
   flex: 1;
   padding: 10px;
-  border: 1px solid #555;
-  border-radius: 5px;
-  background: #2c2c2c;
-  color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
 }
 
-button {
-  background: #00c3ff;
+.input-area button {
+  padding: 10px 20px;
   border: none;
-  color: #000;
-  padding: 10px 15px;
-  border-radius: 5px;
+  background: #764ba2;
+  color: white;
+  border-radius: 0 5px 5px 0;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
-button:hover {
-  background: #009ac1;
+.input-area button:hover {
+  background: #6f45bc;
 }
 
 .loader {
   width: 60px;
   aspect-ratio: 4;
-  --c:#00c3ff 90%,#0000;
-  background: 
-    radial-gradient(circle closest-side at left  6px top 50%,var(--c)),
-    radial-gradient(circle closest-side                     ,var(--c)),
-    radial-gradient(circle closest-side at right 6px top 50%,var(--c));
+  --c: #764ba2 90%, #0000;
+  background: radial-gradient(circle closest-side at left 6px top 50%, var(--c)),
+              radial-gradient(circle closest-side, var(--c)),
+              radial-gradient(circle closest-side at right 6px top 50%, var(--c));
   background-size: 100% 100%;
   background-repeat: no-repeat;
   animation: l4 1s infinite alternate;
@@ -118,5 +84,5 @@ button:hover {
 }
 
 @keyframes l4 {
-  to { width:25px; aspect-ratio: 1; }
+  to { width: 25px; aspect-ratio: 1; }
 }
